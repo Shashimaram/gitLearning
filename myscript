@@ -1,0 +1,6 @@
+for x in $(seq 1 10)
+do
+echo this is my sample data in the each file for practicing git, $x > myfile$x
+git add .
+git commit -m '$x_file added'
+done
